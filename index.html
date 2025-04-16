@@ -279,47 +279,43 @@
         }
         
         /* Подвал */
-        footer {
-            background: var(--dark);
-            color: white;
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        
-        .footer-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .footer-logo {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            font-family: 'Playfair Display', serif;
-        }
-        
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
-        }
-        
-        .footer-links a {
-            color: #a8d0e6;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        
-        .footer-links a:hover {
-            color: white;
-        }
-        
-        .copyright {
-            opacity: 0.7;
-            font-size: 0.9rem;
-            margin-top: 2rem;
-        }
+        /* Стили для подвала */
+footer {
+    background-color: #D4AF37; /* Золотой цвет */
+    color: #333333; /* Темно-коричневый текст для контраста */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333333; /* Цвет ссылок такой же, как основной текст */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт для акцента */
+}
+
+footer a:hover {
+    color: #5A3E24; /* Темно-коричневый при наведении */
+}
+
+footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .footer-links {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+footer .copyright {
+    font-size: 12px;
+    opacity: 0.8;
+}
         
         /* Анимации */
         @keyframes fadeIn {
@@ -449,7 +445,7 @@
                 <div class="element-img" style="background-image: url('./files/флора.jpg');"></div>
                 <div class="element-content">
                     <h3>Флора</h3>
-                    <p>Энергия гармонии. Пробуждает внутреннюю силу и соединяет с природой. Практики с флорой усиливают исцеление и вдохновение./p>
+                    <p>Энергия гармонии. Пробуждает внутреннюю силу и соединяет с природой. Практики с флорой усиливают исцеление и вдохновение.</p>
                     <a href="#" class="element-link">Узнать больше →</a>
                 </div>
             </div>
@@ -459,7 +455,7 @@
                 <div class="element-img" style="background-image: url('./files/фауна.jpg');"></div>
                 <div class="element-content">
                     <h3>Фауна</h3>
-                    <p>Энергия единства. Укрепляет связь с живым миром и учит доверию. Практики с фауной пробуждают эмпатию и внутреннюю мудрость./p>
+                    <p>Энергия единства. Укрепляет связь с живым миром и учит доверию. Практики с фауной пробуждают эмпатию и внутреннюю мудрость.</p>
                     <a href="#" class="element-link">Узнать больше →</a>
                 </div>
             </div>   
@@ -469,7 +465,7 @@
                 <div class="element-img" style="background-image: url('./files/любовь.jpg');"></div>
                 <div class="element-content">
                     <h3>Любовь</h3>
-                    <p>Энергия сердца. Раскрывает глубину чувств и исцеляет душу. Практики любви усиливают принятие и внутренний свет./p>
+                    <p>Энергия сердца. Раскрывает глубину чувств и исцеляет душу. Практики любви усиливают принятие и внутренний свет.</p>
                     <a href="#" class="element-link">Узнать больше →</a>
                 </div>
             </div>
@@ -479,7 +475,7 @@
                 <div class="element-img" style="background-image: url('./files/кристалл.jpg');"></div>
                 <div class="element-content">
                     <h3>Кристаллы</h3>
-                    <p>Энергия света. Очищает и заряжает душу силой земли. Практики с кристаллами усиливают ясность и внутреннюю устойчивость./p>
+                    <p>Энергия света. Очищает и заряжает душу силой земли. Практики с кристаллами усиливают ясность и внутреннюю устойчивость.</p>
                     <a href="#" class="element-link">Узнать больше →</a>
                 </div>
             </div>
@@ -490,19 +486,19 @@
     
     <!-- Подвал -->
     <footer id="contact">
-        <div class="footer-content">
-            <div class="footer-logo">Рейки Стихий</div>
-            <div class="footer-links">
-                <a href="#about">О нас</a>
-                <a href="#elements">Практики</a>
-                <a href="#contact">Обучение</a>
-                <a href="#contact">Сеансы</a>
-                <a href="#contact">Блог</a>
-            </div>
-            <p>contact@reiki-elements.com<br>+7 (123) 456-78-90</p>
-            <p class="copyright">© 2025 Центр квантовой психологии GOLDEN BALANCE. Все права защищены.</p>
+    <div class="footer-content">
+        <div class="footer-logo">GOLDEN BALANCE</div>
+        <div class="footer-links">
+            <a href="#about">О нас</a>
+            <a href="#elements">Практики</a>
+            <a href="#contact">Обучение</a>
+            <a href="#contact">Сеансы</a>
+            <a href="#contact">Блог</a>
         </div>
-    </footer>
+        <p>contact@reiki-elements.com<br>+7 (123) 456-78-90</p>
+        <p class="copyright">© 2025 Центр квантовой психологии GOLDEN BALANCE. Все права защищены.</p>
+    </div>
+</footer>
     
     <script>
         // Плавная прокрутка для навигации
